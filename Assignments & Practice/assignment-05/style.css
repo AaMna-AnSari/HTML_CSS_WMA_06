@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(./font/Roboto-Bold.ttf);
+}
+/* body css */
+body {
+    background-color: rgb(238, 236, 236);
+    text-transform: uppercase;
+    font-family:Roboto;
+}
+
+/* h1 css */
+h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 2px 1px #bbb5b5cc;
+    color: rgb(44, 44, 44);
+    letter-spacing: .1em;
+}
+
+/* form section  */
+.formsection {
+    background-color: white;
+    box-shadow: 2px 3px 8px #888888;
+    padding: 1em 1.5em;
+    color: rgb(65, 63, 63);
+}
+
+input {
+    width: 95em;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.textmsg {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 1px #ccc;
+}
+
+.textmsg:active {
+    background-color: rgb(241, 205, 219);
+}
+
+.textmsg:focus {
+    border: 3px solid rgb(248, 5, 98);
+    outline: none;
+    border-radius: 4px;
+
+}
+
+/* button section */
+button {
+    margin-top: 1em;
+    padding: .5em;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+button:hover{
+    Color:white;
+    background-color: rgb(223, 20, 114);
+   
+}
+/* footer section */
+p {
+    color: rgb(65, 63, 63);
+}
+
+.one::first-letter {
+    color: black;
+    font-size: 400%;
+    text-shadow: 3px 2px 1px #bbb5b5cc;
+ 
+}
+.Two{
+    font-size: 1rem;
+    margin-top: -90px;
+    margin-left: 50px;
+}
+
+a {
+    padding: .3em 0;
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    border-bottom: 1px solid rgb(153, 149, 149);
+   
+}

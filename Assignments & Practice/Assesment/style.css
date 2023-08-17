@@ -1,0 +1,29 @@
+.navbar{
+    background-color: black;
+}
+.link{
+   
+   color: white;
+}
+.links {
+    color: rgb(190, 190, 190);
+}
+.center{
+   margin-left: 2%;
+}
+
+.items{
+    width:20em; 
+}
+.hr{
+    width: 20em;
+}
+.button{
+    background-color: blue;
+}
+.bulet{
+    background-color: rgb(1, 1, 207);
+    color: white;
+     border-radius: 20px; 
+     
+}

@@ -1,0 +1,67 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}.Header, .Footer{
+    background-color: rgb(221 9 9);
+    color: White;
+    font-size: 25px;
+    text-align: center;
+    
+    padding: 10px;
+}
+.container{
+    /* border: 2px solid black; */
+    margin: 15px 0px;
+}
+section{
+    margin-bottom: 60px;
+}
+h1{
+    color: rgb(235, 173, 39);
+    font-size: 30px;
+    padding-left: 40px;
+}
+h2{
+    padding-left: 38px;
+    margin-top: 5px;
+}
+span{
+    color: rgb(110, 109, 109);
+    font-size: 20px;
+}
+
+.all{
+    /* border: 2px solid black; */
+    margin: 15px;
+    display: Flex;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.box{
+   
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    background: #ede8e8;
+    border: 1px solid #bdb2b2;
+    font-size: 22px;
+    font-weight: 700;
+}
+.light{
+    color: rgb(110, 109, 109);
+    font-weight: normal;
+}
+#touch{
+    
+    display: Flex;
+    justify-content: center;
+    background: #ede8e8;
+    font-size: 22px;
+    width: 90vw;
+    height: 13vh;
+    padding: 15px;
+    border-radius: 5px;
+}
